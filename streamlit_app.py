@@ -52,7 +52,7 @@ def main():
         }
         .personal-info {
             font-size: 18px;
-            color: #ffffff;
+            color:  #737373;
             margin-top: 10px;
         }
         .about-me {
