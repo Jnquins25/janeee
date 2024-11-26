@@ -9,12 +9,19 @@ if not os.path.exists(DATA_FILE):
         json.dump({"certificates": [], "education": []}, file)
 
 def load_data():
-    with open(DATA_FILE, "r") as file:
-        return json.load(file)
+    try:
+        with open(DATA_FILE, "r") as file:
+            return json.load(file)
+    except (json.JSONDecodeError, FileNotFoundError) as e:
+        st.error(f"Error loading data: {e}")
+        return {"certificates": [], "education": []}
 
 def save_data(data):
-    with open(DATA_FILE, "w") as file:
-        json.dump(data, file)
+    try:
+        with open(DATA_FILE, "w") as file:
+            json.dump(data, file)
+    except IOError as e:
+        st.error(f"Error saving data: {e}")
 
 def main():
     st.set_page_config(page_title="My Personal Blog", layout="wide")
@@ -88,7 +95,7 @@ def main():
         unsafe_allow_html=True,
     )
 
-     st.markdown('<div class="center-text">', unsafe_allow_html=True)
+    st.markdown('<div style="text-align: center;">', unsafe_allow_html=True)
     st.image("Janeee.JPG", width=150)
     st.markdown('</div>', unsafe_allow_html=True)
 
