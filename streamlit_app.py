@@ -60,6 +60,7 @@ def main():
             color: #000000;
             background: linear-gradient(to bottom, #000000, #f1f1f1);
             line-height: 1.8;
+            border-radius: 15px;
         }
         .section-title {
             color: #4CAF50;
