@@ -96,7 +96,7 @@ def main():
         unsafe_allow_html=True,
     )
 
-    st.image("Janeee.JPG", width=500)
+    st.image("Janeee.JPG", width=900)
     st.markdown('<div style="text-align: center;">', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
