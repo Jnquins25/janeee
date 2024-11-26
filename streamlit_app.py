@@ -42,12 +42,6 @@ def main():
             text-align: center;
             padding: 20px;
         }
-        .profile-pic-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10px;
-}
         .profile-pic {
             border-radius: 50%;
             width: 150px;
@@ -97,9 +91,9 @@ def main():
         """,
         unsafe_allow_html=True,
     )
-    
-    st.markdown('<div class="profile-pic-container">', unsafe_allow_html=True)
-    st.image("Janeee.JPG", width=150, class_="profile-pic")
+
+    st.image("Janeee.JPG", width=450)
+    st.markdown('<div style="text-align: center;">', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
     st.markdown("""
