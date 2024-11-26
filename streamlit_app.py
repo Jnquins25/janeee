@@ -33,11 +33,10 @@ def main():
             background-color: #f8f9fa;
         }
         .main-container {
-            background: #f1f1f1;
+            background: linear-gradient(to bottom, #000000, #f1f1f1);
             border-radius: 15px;
             padding: 30px;
             margin: 20px auto;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         }
         .header {
             text-align: center;
