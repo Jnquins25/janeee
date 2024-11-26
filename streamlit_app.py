@@ -45,12 +45,13 @@ def main():
         }
         .personal-info {
             font-size: 18px;
-            color: #000000;
+            color: #ffffff;
             margin-top: 10px;
         }
         .about-me {
             font-size: 16px;
-            color: #333;
+            color: #ffffff;
+            background: linear-gradient(to bottom, #000000, #f1f1f1);
             line-height: 1.8;
         }
         .section-title {
@@ -87,7 +88,10 @@ def main():
         unsafe_allow_html=True,
     )
 
+     st.markdown('<div class="center-text">', unsafe_allow_html=True)
     st.image("Janeee.JPG", width=150)
+    st.markdown('</div>', unsafe_allow_html=True)
+
     st.markdown("""
         <div class="personal-info" style="text-align: center;">
             <p><b>Jane Quinda B. Eriga</b></p>
@@ -181,4 +185,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
