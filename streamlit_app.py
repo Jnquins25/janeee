@@ -109,7 +109,7 @@ def main():
     st.markdown("""
         <div class="about-me">
             <h3>About Me</h3>
-            <p>I have loved dancing since I was a toddler, and my passion for it continues to this day. I am a dog lover and find joy in spending time with my furry companions. My zodiac sign is Aries, which reflects my enthusiastic and driven nature.</p>
+            <p>I have loved dancing since I was 4 years old, and my passion for it continues to this day. I am a dog lover and find joy in spending time with my furry companions. My zodiac sign is Aries, reflecting my enthusiastic and driven nature.</p>
             <p>I have a deep appreciation for sunsets, the moon, peace, and nature. I find beauty in the ethereal and enjoy exploring fashion, reading, sleeping, watching movies, and listening to the soothing sound of the rain.</p>
         </div>
         </div>
