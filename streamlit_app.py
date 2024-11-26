@@ -49,6 +49,7 @@ def main():
             height: 150px;
             object-fit: cover;
             margin-top: 10px;
+            align: center;
         }
         .personal-info {
             font-size: 18px;
@@ -57,7 +58,7 @@ def main():
         }
         .about-me {
             font-size: 16px;
-            color: #ffffff;
+            color: #000000;
             background: linear-gradient(to bottom, #000000, #f1f1f1);
             line-height: 1.8;
         }
