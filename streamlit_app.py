@@ -42,6 +42,12 @@ def main():
             text-align: center;
             padding: 20px;
         }
+        .profile-pic-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+}
         .profile-pic {
             border-radius: 50%;
             width: 150px;
