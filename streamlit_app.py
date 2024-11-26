@@ -33,9 +33,6 @@ def main():
             background-color: #f8f9fa;
         }
         .main-container {
-            background: linear-gradient(to bottom, #000000, #f1f1f1);
-            border-radius: 15px;
-            padding: 30px;
             margin: 20px auto;
         }
         .header {
